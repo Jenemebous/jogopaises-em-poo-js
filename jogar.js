@@ -33,7 +33,7 @@ class Jogar {
                 console.log("-------------------------");
             } else {
                 if (this.jogo.adivinhar(pt)) {
-                    console.log("Letra " + pt + " já foi tentada.");
+                    console.log("Letra " + pt + " já foi tentada e/ou adicionada.");
                     console.log("-------------------------");
                 } else {
                     console.log("Letra " + pt + " não está na palavra.");
