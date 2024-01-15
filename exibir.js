@@ -1,7 +1,6 @@
 const Jogo = require("./jogo");
-class Exibir extends Jogo{
+class Exibir{
     constructor(jogo) {
-        super()
         this.jogo = jogo;
     }
 
